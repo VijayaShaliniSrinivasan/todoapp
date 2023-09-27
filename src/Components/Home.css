@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo
+{
+    margin-left: 20px;
+    margin-top: 7px;
+    color: black;
+    font-weight:bolder;
+}
+.navbar
+{
+    display: flex;
+    background-color: yellowgreen;
+    height: 50px;
+    justify-content: space-between;
+}
+.nav-links
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.H,
+.Todo
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    color: black;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+.Si,
+.Lo
+{
+    border: solid 1px black; 
+    padding: 10px 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    font-weight:bolder;
+}
+
+.banner-section
+{
+    background-image: url('./image/image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.items
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+}
+.items p
+{
+    width: 550px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.btn1
+{
+    width: 150px;
+    height: 45px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius:6px;
+    margin-top: 25px;
+}
